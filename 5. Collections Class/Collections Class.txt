@@ -1,0 +1,12 @@
+Collection class provide many algoriths as the methods like:
+
+min()
+max()
+binarySearch()
+sort()
+disjoint()
+copy()
+add()
+end more................ 
+
+Reference Link: https://www.geeksforgeeks.org/collections-class-in-java/

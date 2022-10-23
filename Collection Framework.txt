@@ -1,0 +1,68 @@
+Collections in Java:
+____________________
+
+Any group of individual objects which are represented as a single unit is known as the collection of the objects.
+
+The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+
+What is a Framework?
+____________________
+
+A framework is a set of classes and interfaces which provide a ready-made architecture. In order to implement a new feature or a class, there is no need to define a framework.
+
+
+Advantages of the Collection Framework: 
+_______________________________________
+
+1)Consistent API: 
+The API has a basic set of interfaces like Collection, Set, List, or Map, all the classes (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set of methods.
+ 
+2)Reduces programming effort: 
+A programmer doesn’t have to worry about the design of the Collection but rather he can focus on its best use in his program. Therefore, the basic concept of Object-oriented programming (i.e.) abstraction has been successfully implemented.
+ 
+3)Increases program speed and quality: 
+Increases performance by providing high-performance implementations of useful data structures and algorithms because in this case, the programmer need not think of the best implementation of a specific data structure. He can simply use the best implementation to drastically boost the performance of his algorithm/program.
+
+Hierarchy of the Collection Framework:
+______________________________________
+
+1)Collection Interface
+	A)List Interface
+		I)ArrayList Class
+		II)LinkedList Class
+		III)Stack Class
+		IV)Vector Class😵
+
+	B)Set Interface
+		I)EnumSet Class😵
+		II)HashSet Class
+		III)LinkedHashSet Class
+		IV)TreeSet Class (Sorted)
+
+	C)Queue Interface
+		I)ArrayDeque Class
+		II)LinkedList Class
+		III)PriorityQueue Class
+
+2)Map Interface
+		I)HashMap Class
+		II)TreeMap Class (Sorted)
+		III)EnumMap Class😵
+		IV)LinkedMap Class
+		V)WeakHashMap Class😵
+
+3)Iterator Interface
+		I)ListInterator Class😵
+		
+4)Arrays Class
+		I)Sort method
+		II)Binary Search method
+		III)many more algorith method
+5)Collection Class
+		I)Sort method
+		II)Binary Search method
+		III)many more algorith method
+
+______________________________________________
+
+Reference Link: https://www.geeksforgeeks.org/collections-in-java-2/

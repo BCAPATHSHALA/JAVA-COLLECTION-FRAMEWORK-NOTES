@@ -1,0 +1,45 @@
+Set Interface: 
+_______________
+
+A set is an unordered collection of objects in which duplicate values cannot be stored. 
+This set interface is implemented by various classes like HashSet, TreeSet, LinkedHashSet, etc. For example, 
+
+📝Syntax: This type of safelist can be defined as:
+__________________________________________________
+
+Set<T> set = new HashSet<> (); 
+Set<T> set = new LinkedHashSet<> (); 
+Set<T> set = new TreeSet<> (); 
+
+🤢Note: Where T is the type of the object to be stored in List 
+
+Operations on the Set Interface: (UNSORTED SET)
+_______________________________________________
+
+set1 = [1, 3, 2, 4, 8, 9, 0]
+set2 = [1, 3, 7, 5, 4, 0, 7, 5]
+Then the possible operations on the sets are:
+
+1. Intersection: retainAll()
+Intersection = [0, 1, 3, 4] 
+
+2. Union: addAll()
+Union = [0, 1, 2, 3, 4, 5, 7, 8, 9] 
+
+3. Difference: removeAll()
+Difference = [2, 8, 9]
+
+Operations on the Set Interface: (SORTED SET)
+_______________________________________________
+
+Operations 1: Adding Elements -> add()
+Operations 2: Accessing elements -> contains()
+Operations 3: Removing elements -> remove()
+Operations 4: Iterating elements -> for each loop
+Operations 5: Iterating through Set -> Iterator intarface
+
+_____________________________________________________
+
+Reference Link: https://www.geeksforgeeks.org/set-in-java/
+
+				https://www.geeksforgeeks.org/array-class-in-java/

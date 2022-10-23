@@ -1,0 +1,28 @@
+Map Interface: 
+_______________
+
+A map is a data structure that supports the key-value pair mapping for the data. This interface doesn’t support duplicate keys because the same key cannot have multiple mappings.
+
+This map interface is implemented by various classes like HashMap, TreeMap, etc. Since all the subclasses implement the map, we can instantiate a map object with any of these classes. For example,
+
+📝Syntax: This type of safelist can be defined as:
+__________________________________________________
+
+Map<T> map = new HashMap<> (); 
+Map<T> map = new TreeMap<> ();
+Map<T> map = new LinkedHashMap<> (); 
+ 
+
+🤢Note: Where T is the type of the object to be stored in List 
+
+Operations on the Set Interface: (UNSORTED SET)
+_______________________________________________
+
+Operations 1: Adding Elements -> put()
+Operation 2: Changing Element -> put()
+Operations 3: Removing elements -> remove()
+Operations 4: Iterating elements -> through map
+
+_____________________________________________________
+
+Reference Link: https://www.geeksforgeeks.org/map-interface-java-examples/

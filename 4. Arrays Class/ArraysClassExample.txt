@@ -1,0 +1,8 @@
+Arrays Class Provide the many more algorith as method
+like: Binary Search, Sorting, etc......
+
+
+
+
+
+Read More about Arrays Class: https://www.geeksforgeeks.org/array-class-in-java/

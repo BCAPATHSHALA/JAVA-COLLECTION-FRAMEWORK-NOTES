@@ -1,0 +1,48 @@
+Queue Interface: 
+_______________
+
+A queue interface maintains the FIFO(First In First Out) order similar to a real-world queue line. 
+
+There are various classes like PriorityQueue, ArrayDeque, etc. Since all these subclasses implement the queue, we can instantiate a queue object with any of these classes. For example, 
+
+📝Syntax: This type of safelist can be defined as:
+__________________________________________________
+
+Queue <T> queue = new PriorityQueue<> (); 
+Queue <T> queue = new ArrayDeque<> ();
+Queue <T> queue = new LinkedList<> ();  
+
+🤢Note: Where T is the type of the object to be stored in List 
+
+Operations in a Queue interface:
+________________________________
+
+The Queue interface includes all the methods of the Collection interface. It is because Collection is the super interface of Queue.
+
+Some of the commonly used methods of the Queue interface are:
+
+Operation 1: 
+____________
+
+add() - Inserts the specified element into the queue. If the task is successful, add() returns true, if not it throws an exception.
+
+offer() - Inserts the specified element into the queue. If the task is successful, offer() returns true, if not it returns false.
+
+Operation 2: 
+____________
+
+element() - Returns the head of the queue. Throws an exception if the queue is empty.
+peek() - Returns the head of the queue. Returns null if the queue is empty.
+
+Operation 3:
+____________ 
+
+remove() - Returns and removes the head of the queue. Throws an exception if the queue is empty.
+poll() - Returns and removes the head of the queue. Returns null if the queue is empty.
+
+
+_____________________________________________________
+
+Reference Link: https://www.geeksforgeeks.org/queue-interface-java/
+
+				https://www.geeksforgeeks.org/comparator-interface-java/

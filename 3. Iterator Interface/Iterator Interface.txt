@@ -1,0 +1,4 @@
+Read about the Iterator Interface:
+
+
+https://www.geeksforgeeks.org/iterator-interface-in-java/
