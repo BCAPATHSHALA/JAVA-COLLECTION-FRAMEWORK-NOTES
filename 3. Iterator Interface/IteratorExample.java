@@ -20,14 +20,14 @@ class IteratorExample {
 		list1.add(900);
 		list1.add(100);
 
-       // Printing elements one by one
-       System.out.print("Using Iterator Interface:");
-       Iterator<Integer> it = list1.iterator();
+	       // Printing elements one by one
+	       System.out.print("Using Iterator Interface:");
+	       Iterator<Integer> it = list1.iterator();
 
-       while (it.hasNext()) 
-       {
-           System.out.print(it.next()+" ");
-       }
+	       while (it.hasNext()) 
+	       {
+		   System.out.print(it.next()+" ");
+	       }
 	}
 }
 
